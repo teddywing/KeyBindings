@@ -52,6 +52,11 @@
   // blank line before current
   "~O" = (moveToBeginningOfParagraph:, moveLeft:, insertNewline:);
 
+  // Insert blank line after paragraph
+  "^~o" = (moveToEndOfParagraph:, insertNewline:);
+  // Insert blank line above paragraph
+  "^~O" = (moveToBeginningOfParagraph:, moveLeft:, insertNewline:);
+
 
   // move line up
   "^@k" = (selectParagraph:, setMark:, deleteToMark:, moveLeft:, moveToBeginningOfParagraph:, yank:, moveLeft:, selectToMark:, moveLeft:);
@@ -100,11 +105,6 @@
   "~@\UF703" = (moveToEndOfParagraph:, insertText:, " ", selectWord:, moveLeft:, setMark:, moveToEndOfParagraph:, deleteBackward:, swapWithMark:);
   // Move to end of paragraph and delete trailing whitespace (new)
   "^~\UF703" = (moveToEndOfParagraph:, insertText:, " ", selectWord:, deleteBackward:);
-
-  // TextMate Command-Return (Command Enter)
-  "@\U000D" = (moveToEndOfParagraph:, insertNewline:);
-  // Insert blank line above paragraph (Command Shift Enter)
-  "@$\U000D" = (moveToBeginningOfParagraph:, moveLeft:, insertNewline:);
 
   // > this will kill non alphanumeric symbols and punctuation, use only on *words*
   // hyphenate next space and move to next word
