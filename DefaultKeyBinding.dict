@@ -322,4 +322,7 @@
 
   // Real, honest-to-goodnes Save As...
   "@~S" = (saveAs:);
+
+  "^s" = "ays_incrementalSearchForward:";
+  "^r" = "ays_incrementalSearchBackward:";
 }
