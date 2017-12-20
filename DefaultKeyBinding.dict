@@ -44,8 +44,6 @@
   "^A" = (moveToBeginningOfParagraphAndModifySelection:, copy:);
   // select to end of paragraph and copy
   "^E" = (moveToEndOfParagraphAndModifySelection:, copy:);
-  // cut to beginning of paragraph
-  "~q" = (moveToBeginningOfParagraphAndModifySelection:, cut:);
   // cut to end of paragraph
   "~k" = (moveToEndOfParagraphAndModifySelection:, cut:);
 
