@@ -113,9 +113,9 @@
   "@~_" = (selectWord:,moveRight:,setMark:,moveWordRight:,moveWordLeft:,moveLeft:,selectWord:,insertText:,"-",moveWordRight:);
 
   // bookmark
-  "~1" = (setMark:);
+  "^!" = (setMark:);
   // jump to bookmark
-  "~2" = (swapWithMark:,centerSelectionInVisibleArea:);
+  "^@" = (swapWithMark:,centerSelectionInVisibleArea:);
 
   // > Command Option Enter
   // Continue a list item with indentation and include the same delimiter
